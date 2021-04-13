@@ -12,7 +12,7 @@ int main()
     cout << "Ingrese un numero:";
     cin >> n;
 
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++) { 
         if (i % 2 == 0) {
             for (int j = (i / 2); j >= 1; j--) {
                 if (i % j == 0) {
